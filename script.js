@@ -1,6 +1,6 @@
 async function searchCity() {
     const city = document.getElementById("city").value;
-    const API_KEY = "1b80b468a9bebd8f26e717698e2ed8af";  // Replace
+    const API_KEY = "e20d5363cc4f77fa17e674eb1fb4b979";  // Replace
 
     document.getElementById("output").innerText = "Loading...";
 
@@ -34,4 +34,5 @@ async function searchCity() {
         `Weather: ${weatherData.weather[0].description}`;
 
 }
+
 
